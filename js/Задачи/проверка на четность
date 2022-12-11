@@ -1,0 +1,6 @@
+let digit= window.prompt("ведите число",600);
+if (digit & 2 == 0) {
+    document.write('Четное');
+} else {
+    document.write('нечетное');
+}
