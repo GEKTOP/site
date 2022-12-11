@@ -1,0 +1,8 @@
+let a = 6;
+let b = a;
+let znak = "+";
+switch (znak) {
+    case "+":
+        result = a + b
+        console.log(result);
+}
