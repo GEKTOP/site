@@ -1,6 +1,16 @@
 let digit= window.prompt("ведите число",600);
-if (digit & 2 == 0) {
-    document.write('Четное');
+if (digit % 2 == 0) {
+    alert('Четное');
 } else {
-    document.write('нечетное');
+    alert('нечетное');
+}
+if (digit % 5 == 0){
+	alert('Четно 5');
+} else {
+    alert('нечетно 5');
+}
+if (digit % 10 == 0){
+	alert('Четно 10');
+} else {
+    alert('нечетно 10');
 }
