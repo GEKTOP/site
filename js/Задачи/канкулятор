@@ -1,8 +1,23 @@
-let a = 6;
-let b = a;
-let znak = "+";
+let a = prompt();
+let b = prompt();
+let znak = prompt();
 switch (znak) {
-    case "+":
-        result = a + b
-        console.log(result);
+	case '1':
+		result = a + b
+		alert(result);
+		break;
+	case '2':
+		result = a - b 
+		alert(result);
+		break;
+	case '3':
+		result = a * b 
+		alert(result);
+		break;
+	case '4':
+		result = a / b 
+		alert(result);
+		break;
+	default:
+		result = 'ошибка';
 }
